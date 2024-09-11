@@ -4,6 +4,7 @@ import Features from './Features';
 import Footer from './Footer';
 import Header from './Header';
 import Navigation from './Navigation';
+import Popup from './Popup';
 import Stories from './Stories';
 import Tours from './Tours';
 
@@ -20,6 +21,7 @@ function App() {
         <Booking />
       </main>
       <Footer />
+      <Popup />
     </>
   );
 }
